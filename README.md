@@ -15,21 +15,14 @@
 10. app.py
 
 # How to run?
-### STEPS:
-
-Clone the repository
-
-```bash
-https://github.com/krishnaik06/Kidney-Disease-Classification-Deep-Learning-Project
-```
 ### STEP 01- Create a conda environment after opening the repository
 
 ```bash
-conda create -n cnncls python=3.8 -y
+conda create -n venv python=3.12 -y
 ```
 
 ```bash
-conda activate cnncls
+conda activate venv
 ```
 
 
@@ -56,8 +49,6 @@ open up you local host and port
 ## MLflow
 
 - [Documentation](https://mlflow.org/docs/latest/index.html)
-
-- [MLflow tutorial](https://youtu.be/qdcHHrsXA48?si=bD5vDS60akNphkem)
 
 ##### cmd
 - mlflow ui
@@ -140,8 +131,7 @@ DVC
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 566373416292.dkr.ecr.us-east-1.amazonaws.com/chicken
-
+    - Save the URI: 
 	
 ## 4. Create EC2 machine (Ubuntu) 
 
@@ -176,7 +166,7 @@ DVC
 
     AWS_REGION = us-east-1
 
-    AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
+    AWS_ECR_LOGIN_URI = demo>>  
 
     ECR_REPOSITORY_NAME = simple-app
 
