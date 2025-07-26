@@ -1,0 +1,23 @@
+[project]
+name = "cnnClassifier"
+version = "0.0.0"
+description = "A small python package for CNN app"
+authors = [{ name = "aguru srinivas", email = "srinivasaguru301@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/aguru srinivas/Kidney-Disease-Classification-Deep-Learning-Project"
+BugTracker = "https://github.com/aguru srinivas/Kidney-Disease-Classification-Deep-Learning-Project/issues"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
