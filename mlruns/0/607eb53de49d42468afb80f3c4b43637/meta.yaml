@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Kidney-Disease-Classification-Deep-Learning-Project/mlruns/0/607eb53de49d42468afb80f3c4b43637/artifacts
+end_time: 1753632555805
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 607eb53de49d42468afb80f3c4b43637
+run_name: flawless-hare-432
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753632539373
+status: 3
+tags: []
+user_id: srini
