@@ -54,17 +54,15 @@ open up you local host and port
 - mlflow ui
 
 ### dagshub
-```bash
+
 [dagshub](https://dagshub.com/)
 
-Run this to export as env variables:
-import dagshub
-dagshub.init(repo_owner='srinivasaguru301', repo_name='Kidney-Disease-Classification-Deep-Learning-Project', mlflow=True)
+```bash
 
-import mlflow
-with mlflow.start_run():
-  mlflow.log_param('parameter name', 'value')
-  mlflow.log_metric('metric name', 1)
+Run this to export as env variables:
+os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/srinivasaguru301/Kidney-Disease-Classification-Deep-Learning-Project.mlflow"
+os.environ["MLFLOW_TRACKING_USERNAME"]="srinivasaguru301"
+os.environ["MLFLOW_TRACKING_PASSWORD"]="cbe6a6734190bcf34a835d2d17bf9e6fa1c8fe29"
 
 ```
 
